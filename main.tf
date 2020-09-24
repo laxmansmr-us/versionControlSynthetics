@@ -8,7 +8,7 @@ provider "newrelic" {
 
 # SCRIPTED BROWSER MONITOR CREATION
 resource "newrelic_synthetics_monitor" "tf_scripted" {
-  name = "Ryans Scripted Browser"
+  name = "Ryans new Scripted Browser"
   type = "SCRIPT_BROWSER"
   frequency = 1
   status = "ENABLED"
