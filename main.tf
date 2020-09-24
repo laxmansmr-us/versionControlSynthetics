@@ -8,7 +8,7 @@ provider "newrelic" {
 
 # SCRIPTED BROWSER MONITOR CREATION
 resource "newrelic_synthetics_monitor" "tf_scripted" {
-  name = "ghActionsTest"
+  name = "Ryans Terraform Monitor"
   type = "SCRIPT_BROWSER"
   frequency = 1
   status = "ENABLED"
