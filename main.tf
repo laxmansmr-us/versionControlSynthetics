@@ -1,14 +1,14 @@
 # Configure the New Relic provider
 provider "newrelic" {
-  api_key       =  "NRAK-62H9LDKOK15PQW869BC1L72UIWR"
-  admin_api_key =  "NRAA-26febaf6f5d4865317d0d9f0d4e"
-  account_id    =  "1133910"
+  api_key       =  "NRAK-TGF8HS91I642C4D0MWC5R687KVA"
+  admin_api_key =  "NRAA-b97495fda60c15163162c510314"
+  account_id    =  "2615841"
   region        = "US"
 }
 
 # SCRIPTED BROWSER MONITOR CREATION
 resource "newrelic_synthetics_monitor" "tf_scripted" {
-  name = "New Terraform & Github Actions Monitor"
+  name = "Ryans Scripted Browser"
   type = "SCRIPT_BROWSER"
   frequency = 1
   status = "ENABLED"
