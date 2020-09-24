@@ -1,9 +1,9 @@
 # Configure the New Relic provider
 provider "newrelic" {
-  api_key       =  "NRAK-TGF8HS91I642C4D0MWC5R687KVA"
-  admin_api_key =  "NRAA-b97495fda60c15163162c510314"
-  account_id    =  "2615841"
-  region        = "US"
+  api_key       =  "YOUR PERSONAL API KEY" # https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#personal-api-key
+  admin_api_key =  "YOUR ADMIN API KEY" # https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#admin
+  account_id    =  "YOUR NEW RELIC ACCOUNT ID"
+  region        = "YOUR NEW RELIC DATACENTER REGION" # US or EU
 }
 
 # SCRIPTED BROWSER MONITOR CREATION
