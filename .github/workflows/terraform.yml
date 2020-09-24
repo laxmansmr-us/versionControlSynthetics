@@ -31,10 +31,6 @@ jobs:
     - name: Terraform Init
       run: terraform init
 
-    # Import the script we are looking to update
-    - name: Terraform Import
-      run: terraform import newrelic_synthetics_monitor_script.tf_scripted c4e6b5c5-6aaa-46bf-8494-c7fec48ee273
-
     # Generates an execution plan for Terraform
     - name: Terraform Plan
       run: terraform plan
